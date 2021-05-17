@@ -1,69 +1,8 @@
-.image-404 {
-  margin-top: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  height: 20%;
+.nav-toggler {
+  display: none;
 }
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  text-align: center;
-  color: black;
-  color: #575757;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  color: grey;
-  color: rgba(87, 87, 87, 0.75);
-}
-
-.linkapp {
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  text-align: center;
-  color: grey;
-  color: rgba(87, 87, 87, 0.75);
-  text-decoration: underline;
-
-}
-
-#links {
-  max-width: 350px;
-  width: auto;
-  display: block;
-  margin: 27px auto;
-}
-
-.link {
-  position: relative;
-  background-color: #6576FB;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.25);
-  color: #ffffff;
-  border-radius: 25px;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  display: block;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 10px;
-  padding: 10px;
-  text-decoration: none;
+@media screen and (max-width: 991px) {
+  .nav-toggler {
+  display:flex;
+  }
 }
